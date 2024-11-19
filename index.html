@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Kelas XI-F6</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Website Kelas XI-F6</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#jadwal">Jadwal Pelajaran</a></li>
+            <li><a href="#seragam">Jadwal Seragam</a></li>
+            <li><a href="#piket">Jadwal Piket</a></li>
+            <li><a href="#struktur">Struktur Kelas</a></li>
+            <li><a href="#tugas">Daftar Tugas</a></li>
+            <li><a href="#absensi">Absensi</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <section id="jadwal" class="section">
+            <h2>Jadwal Pelajaran</h2>
+            <table id="scheduleTable"></table>
+            <div class="countdown" id="countdown"></div>
+        </section>
+
+        <section id="seragam" class="section">
+            <h2>Jadwal Seragam</h2>
+            <table>
+                <tr><th>Hari</th><th>Seragam</th></tr>
+                <tr><td>Senin</td><td>Putih abu-abu dan olahraga</td></tr>
+                <tr><td>Selasa</td><td>Putih abu-abu</td></tr>
+                <tr><td>Rabu</td><td>Pramuka</td></tr>
+                <tr><td>Kamis</td><td>Putih abu-abu dengan vest</td></tr>
+                <tr><td>Jumat</td><td>Batik (minggu kedua dan keempat) atau Muslim (minggu pertama dan ketiga)</td></tr>
+            </table>
+        </section>
+
+        <section id="piket" class="section">
+            <h2>Jadwal Piket</h2>
+            <table>
+                <tr><th>Hari</th><th>Petugas Piket</th></tr>
+                <tr><td>Senin</td><td>Arfathoni, Meydina, Kayla, Shyakina, Alvirginia, Ridhowan, Bunga</td></tr>
+                <tr><td>Selasa</td><td>Suhana, Nova, Zaskia, Kirana, Fachri, Chantika, Siti Z</td></tr>
+                <tr><td>Rabu</td><td>Alya, Siti F, Magentha, Puspa, Rafananta, Ekky, Syafiq, Syakillah</td></tr>
+                <tr><td>Kamis</td><td>Zahra, Ichsan, Citra, Daaniysa, Almanda, Rani, Farah</td></tr>
+                <tr><td>Jumat</td><td>Tisa, Nasywan, Selvi, Rifqa, Ghozi, Malika, Zacky</td></tr>
+            </table>
+        </section>
+
+        <section id="struktur" class="section">
+            <h2>Struktur Kelas</h2>
+            <div class="struktur-kelas">
+                <div class="struktur-item">Wali Kelas: Ekalenti Elvira</div>
+                <div class="struktur-connector"></div>
+                <div class="struktur-item">Ketua Kelas: Daaniysa</div>
+                <div class="struktur-connector"></div>
+                <div class="struktur-row">
+                    <div>
+                        <div class="struktur-item">Wakil Ketua 1: Almanda</div>
+                        <div class="struktur-connector"></div>
+                        <div class="struktur-item">Sekretaris 1: Zaskia</div>
+                    </div>
+                    <div>
+                        <div class="struktur-item">Wakil Ketua 2: Arfat</div>
+                        <div class="struktur-connector"></div>
+                        <div class="struktur-item">Sekretaris 2: Farah</div>
+                    </div>
+                </div>
+                <div class="struktur-connector"></div>
+                <div class="struktur-row">
+                    <div class="struktur-item">Bendahara 1: Alvirginia</div>
+                    <div class="struktur-item">Bendahara 2: Bunga</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tugas" class="section">
+            <h2>Daftar Tugas Minggu Ini (6 - 10 Oktober)</h2>
+            <table>
+                <tr><th>Hari</th><th>Mata Pelajaran</th><th>Tugas</th></tr>
+                <tr><td>Senin</td><td>Prakarya</td><td>Proposal Tugas Kelompok</td></tr>
+                <tr><td>Selasa</td><td>Agama</td><td>Paparan Tugas Kelompok</td></tr>
+                <tr><td>Rabu</td><td>Bahasa Inggris</td><td>Presentasi Tugas Kelompok (Tentang Text Report)</td></tr>
+                <tr><td>Kamis</td><td>Ekonomi</td><td>Bagi yang belum mengumpulkan Tugas Kelompok harap segera dikumpulkan</td></tr>
+                <tr><td>Kamis</td><td>Informatika</td><td>Ulangan</td></tr>
+                <tr><td>Jumat</td><td>Pendidikan Pancasila</td><td>Presentasi Tugas Kelompok Minggu Lalu</td></tr>
+            </table>
+        </section>
+
+        <section id="absensi" class="section">
+            <h2>Absensi Kelas</h2>
+            <div class="attendance-grid" id="attendanceGrid"></div>
+        </section>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
